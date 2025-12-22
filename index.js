@@ -6,3 +6,8 @@ document.getElementById("count").innerText= count;
 console.log(count);
 }
 
+function save(){
+    console.log("saved");
+    let save=count;
+    console.log(save);
+}
