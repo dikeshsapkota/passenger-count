@@ -16,4 +16,5 @@ function save(){
     let countStr= count +" - "
     document.getElementById("save-El").textContent += countStr;
 document.getElementById("count").innerText=0;
+count=0;
 }
