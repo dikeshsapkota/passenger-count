@@ -2,7 +2,7 @@
 .bg-container {
   width: 100%;
   min-height: 100vh;
-  background-image: url('bgtrain.jpg');
+  background-image: url('trainspot.jpg');
   background-size: cover;
 background-position: center;
   background-repeat: no-repeat;
@@ -30,6 +30,7 @@ h2{
 }
 #save-btn{
     padding: 10px 20px;
+    height: 1cm;
     font-size: 16px;
     background-color: rgb(185, 197, 251);
     color: rgb(43, 0, 0);
@@ -42,4 +43,10 @@ h2{
 #save-btn:hover{
     background-color: rgb(101, 140, 255);
     color: white;
+}
+
+p{
+    font-size: 18px;
+    color: rgb(51, 231, 141);
+    text-align: center;
 }
